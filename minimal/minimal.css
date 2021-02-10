@@ -27,8 +27,8 @@
 }
 
 .xbox .trigger {
-    width: 88px;
-    height: 121px;
+    width: 192px;
+    height: 24px;
     background: url(trigger.png);
     opacity: 0;
 }
@@ -44,8 +44,8 @@
 }
 
 .xbox .bumper {
-    width: 170px;
-    height: 61px;
+    width: 162px;
+    height: 20px;
     background: url(bumper.png);
     opacity: 0;
 }
@@ -112,8 +112,8 @@
 
 .xbox .back, .xbox .start {
     background: url(start-select.png);
-    width: 33px;
-    height: 33px;
+    width: 52px;
+    height: 52px;
     opacity: 0;
 }
 
@@ -132,8 +132,8 @@
 
 .xbox .abxy {
     position: absolute;
-    width: 153px;
-    height: 156px;
+    width: 294px;
+    height: 145px;
     top: 192px;
     left: 488px;
 }
@@ -141,8 +141,8 @@
 .xbox .button {
     position: absolute;
     background: url(abxy.png);
-    width: 48px;
-    height: 48px;
+    width: 72px;
+    height: 72px;
 }
 
 .xbox .button.pressed {
@@ -177,8 +177,8 @@
 
 .xbox .sticks {
     position: absolute;
-    width: 371px;
-    height: 196px;
+    width: 328px;
+    height: 160px;
     top: 239px;
     left: 144px;
 }
@@ -187,8 +187,8 @@
     position: absolute;
     background: url(stick.png);
     background-position: -85px 0;
-    height: 83px;
-    width: 83px;
+    height: 160px;
+    width: 163px;
 }
 
 .xbox .stick.pressed {
@@ -227,29 +227,29 @@
     background-position: 34px 0;
     left: 38px;
     top: 0px;
-    width: 34px;
-    height: 56px;
+    width: 57px;
+    height: 91px;
 }
 
 .xbox .face.down {
     left: 38px;
     bottom: 0;
-    width: 34px;
-    height: 56px;
+    width: 57px;
+    height: 91px;
 }
 
 .xbox .face.left {
     background-position: 0 -93px;
-    width: 55px;
-    height: 35px;
+    width: 91px;
+    height: 57px;
     top: 38px;
     left: 0;
 }
 
 .xbox .face.right {
     background-position: 0 -57px;
-    width: 55px;
-    height: 35px;
+    width: 91px;
+    height: 57px;
     top: 38px;
     right: 0;
 }
