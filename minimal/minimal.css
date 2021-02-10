@@ -40,8 +40,8 @@
 }
 
 .xbox .trigger.right {
-    float: right;
-    transform: rotateY(180deg);
+     position: absolute;
+        left: 433px;
 }
 
 .xbox .bumper {
@@ -55,7 +55,7 @@
     position: absolute;
     width: 536px;
     height: 61px;
-    left: 100px;
+    left: 70px;
     top: 141px;
 }
 
@@ -65,13 +65,13 @@
 
 .xbox .bumper.left {
     float: left;
-    right: 
+
 }
 
 .xbox .bumper.right {
-    float: right;
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
+    position: absolute;
+        left: 402px;
+
 }
 
 .xbox .quadrant {
@@ -125,12 +125,16 @@
 }
 
 .xbox .back {
-    float: left;
+    position: absolute;
+    top: 16px;
+    left: -59px;
 }
 
 .xbox .start {
-    background-position: 50px 0px;
-    float: right;
+    background-position: 50px;
+    position: absolute;
+    top: 16px;
+    left: 103px;
 }
 
 .xbox .abxy {
@@ -149,8 +153,8 @@
 }
 
 .xbox .button.pressed {
-    background-position-y: -48px;
-    margin-top: 5px;
+    background-position-y: -74px;
+    margin-top: 1px;
     opacity: 1;
 }
 
