@@ -14,25 +14,30 @@
 }
 
 .gc .triggers {
-    width: 775px;
-    height: 95px;
+    width: 159px;
+    height: 159px;
     position: absolute;
-    left: 102px;
+    
 }
 
 .gc .trigger {
-    width: 131px;
-    height: 100%;
+    width: 159px;
+    height: 159px;
     background: url(https://kiwisirl.github.io/mariogc/trigger.png);
     opacity: 0;
 }
 
 .gc .trigger.left {
-    float: left;
+    position:absolute;
+    left: 266px;
+    top: 13px;
+
 }
 
 .gc .trigger.right {
-    float: right;
+    position:absolute;
+    right: -500px;
+    top: 14px;
 }
 
 .gc .bumper {
