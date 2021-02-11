@@ -1,12 +1,12 @@
 /*BEGIN GameCube Controller Styling*/
 .controller.gc {
-    background: url(gc-assets/base.png) no-repeat;
+    background: url(https://kiwisirl.github.io/mariogc/base.png) no-repeat;
     height: 837px;
     width: 978px;
 }
 
 .gc.disconnected {
-    background: url(gc-assets/disconnected.png) no-repeat;
+    background: url(https://kiwisirl.github.io/mariogc/disconnected.png) no-repeat;
 }
 
 .gc.disconnected div {
@@ -23,7 +23,7 @@
 .gc .trigger {
     width: 131px;
     height: 100%;
-    background: url(gc-assets/trigger.png);
+    background: url(https://kiwisirl.github.io/mariogc/trigger.png);
     opacity: 0;
 }
 
@@ -38,7 +38,7 @@
 .gc .bumper {
     width: 158px;
     height: 100%;
-    background: url(gc-assets/buttons.png) no-repeat;
+    background: url(https://kiwisirl.github.io/mariogc/buttons.png) no-repeat;
     background-position: -358px 0px;
     opacity: 0;
 }
@@ -130,7 +130,7 @@ background-position: 0 -70px;
 
 .gc .button {
     position: absolute;
-    background: url(gc-assets/buttons.png);
+    background: url(https://kiwisirl.github.io/mariogc/buttons.png);
     opacity: 0;
 }
 
@@ -185,7 +185,7 @@ background-position: 0 -70px;
 .gc .stick.left {
     top: 24px;
     left: 23px;
-    background: url(gc-assets/left-stick.png) center no-repeat;
+    background: url(https://kiwisirl.github.io/mariogc/left-stick.png) center no-repeat;
     height: 121px;
     width: 121px;
 }
@@ -193,7 +193,7 @@ background-position: 0 -70px;
 .gc .stick.right {
     top: calc(100% - 127px);
     left: calc(100% - 125px);
-    background: url(gc-assets/cstick.png) center no-repeat;
+    background: url(https://kiwisirl.github.io/mariogc/cstick.png) center no-repeat;
     width: 84px;
     height: 84px;
 }
@@ -215,7 +215,7 @@ background-position: 0 -70px;
 }
 
 .gc .face {
-    background: url(gc-assets/dpad.png) no-repeat;
+    background: url(https://kiwisirl.github.io/mariogc/dpad.png) no-repeat;
     position: absolute;
     opacity: 0;
 }
