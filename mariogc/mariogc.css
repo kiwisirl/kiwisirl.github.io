@@ -41,10 +41,10 @@
 }
 
 .gc .bumper {
-    width: 158px;
-    height: 100%;
+    width: 185px;
+    height: 92px;
     background: url(https://kiwisirl.github.io/mariogc/buttons.png) no-repeat;
-    background-position: -358px 0px;
+    background-position: -700px 0px;
     opacity: 0;
 }
 
@@ -52,9 +52,10 @@
     position: absolute;
     width: 792px;
     height: 73px;
-    left: 103px;
-    top: 138px;
+    left: -11px;
+    top: 215px;
 }
+
 
 .gc .bumper.pressed {
     opacity: 1;
