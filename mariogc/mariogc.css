@@ -249,9 +249,9 @@ background-position: 0 -70px;
 }
 
 .gc .face.right {
-    top: -25px;
+    top: -28px;
     right: 250px;
-    background-position: 60px 0px;
+    background-position: -202px 0px;
 }
 
 .gc .face.pressed {
