@@ -208,8 +208,8 @@ background-position: 0 -70px;
 
 .gc .dpad {
     position: absolute;
-    width: 130px;
-    height: 130px;
+    width: 258px;
+    height: 70px;
     top: 497px;
     left: 263px;
 }
@@ -231,27 +231,27 @@ background-position: 0 -70px;
 }
 
 .gc .face.up {
-    left: 42px;
-    top: 0;
-    background-position: 0px 0px;
+    left: -84px;
+    top: -80px;
+    
 }
 
 .gc .face.down {
-    left: 42px;
-    bottom: 0;
+    left: -96px;
+    bottom: 14px;
     background-position: -46px 0;
 }
 
 .gc .face.left {
-    top: 43px;
-    left: 0;
+    top: -30px;
+    left: -160px;
     background-position: -93px 0;
 }
 
 .gc .face.right {
-    top: 43px;
-    right: 0px;
-    background-position: -160px 0;
+    top: -25px;
+    right: 250px;
+    background-position: 60px 0px;
 }
 
 .gc .face.pressed {
