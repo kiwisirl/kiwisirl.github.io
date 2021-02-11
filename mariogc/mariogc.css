@@ -122,8 +122,8 @@ background-position: 0 -70px;
 
 .gc .abxy {
     position: absolute;
-    width: 288px;
-    height: 230px;
+    width: 895px;
+    height: 227px;
     top: 207px;
     left: 640px;
 }
@@ -131,7 +131,7 @@ background-position: 0 -70px;
 .gc .button {
     position: absolute;
     background: url(https://kiwisirl.github.io/mariogc/buttons.png);
-    opacity: 0;
+    opacity: 1;
 }
 
 .gc .button.pressed {
@@ -139,17 +139,17 @@ background-position: 0 -70px;
 }
 
 .gc .a {
-    background-position: 0 0;
-    width: 114px;
-    height: 114px;
-    bottom: 35px;
-    left: 91px;
+    background-position: px 0;
+    width: 224px;
+    height: 224px;
+    bottom: -164px;
+    left: -240px;
 }
 
 .gc .b {
-    width: 71px;
-    height: 71px;
-    background-position: -116px 0;
+    width: 140px;
+    height: 140px;
+    background-position: -50px 0;
     bottom: 0px;
     left: 1px;
 }
